@@ -1,0 +1,634 @@
+{
+    "5d78ad8ef56e43a2acfcc74bb17f440e": {
+        "token_sequence": [
+            "endbr64",
+            "bnd",
+            "CONST"
+        ],
+        "call_to": {},
+        "call_external": {},
+        "function_name": "__cxa_finalize",
+        "function_addr": 4240
+    },
+    "b0d9b9ae6a304ca0b81762c812cf6b75": {
+        "token_sequence": [
+            "endbr64",
+            "bnd",
+            "CONST"
+        ],
+        "call_to": {},
+        "call_external": {},
+        "function_name": "._ZNSirsERi",
+        "function_addr": 4256
+    },
+    "24771c96208d4ae18e48e18776f301a3": {
+        "token_sequence": [
+            "endbr64",
+            "bnd",
+            "CONST"
+        ],
+        "call_to": {},
+        "call_external": {},
+        "function_name": ".__cxa_atexit",
+        "function_addr": 4272
+    },
+    "ed83edb7f99349449bcc6bfbd8a3eb48": {
+        "token_sequence": [
+            "endbr64",
+            "bnd",
+            "CONST"
+        ],
+        "call_to": {},
+        "call_external": {},
+        "function_name": "._ZNSolsEPFRSoS_E",
+        "function_addr": 4288
+    },
+    "3b3b411947f34b9980ea1482ded22ef4": {
+        "token_sequence": [
+            "endbr64",
+            "bnd",
+            "CONST"
+        ],
+        "call_to": {},
+        "call_external": {},
+        "function_name": ".__stack_chk_fail",
+        "function_addr": 4304
+    },
+    "7f8fbd4713354cb9988a9ff4122959ee": {
+        "token_sequence": [
+            "endbr64",
+            "bnd",
+            "CONST"
+        ],
+        "call_to": {},
+        "call_external": {},
+        "function_name": "._ZNSt8ios_base4InitC1Ev",
+        "function_addr": 4320
+    },
+    "d594d9e98f4842ec86840f89a0fb56c3": {
+        "token_sequence": [
+            "endbr64",
+            "bnd",
+            "CONST"
+        ],
+        "call_to": {},
+        "call_external": {},
+        "function_name": "._ZNSolsEi",
+        "function_addr": 4336
+    },
+    "1dd0d4eb1f4346ccb356c9cb60a817e3": {
+        "token_sequence": [
+            "endbr64",
+            "xor",
+            "ebp",
+            "ebp",
+            "mov",
+            "r9",
+            "rdx",
+            "pop",
+            "rsi",
+            "mov",
+            "rdx",
+            "rsp",
+            "and",
+            "rsp",
+            "CONST",
+            "push",
+            "rax",
+            "push",
+            "rsp",
+            "xor",
+            "r8d",
+            "r8d",
+            "xor",
+            "ecx",
+            "ecx",
+            "lea",
+            "rdi",
+            "main",
+            "call",
+            "callfunc_xxx",
+            "hlt"
+        ],
+        "call_to": {},
+        "call_external": {
+            "__libc_start_main": [
+                29
+            ]
+        },
+        "function_name": "_start",
+        "function_addr": 4352
+    },
+    "15a2433297aa47008eedbe7c40eec59d": {
+        "token_sequence": [
+            "lea",
+            "rdi",
+            "CONST",
+            "lea",
+            "rax",
+            "CONST",
+            "cmp",
+            "rax",
+            "rdi",
+            "jz",
+            "JUMP_ADDR_21",
+            "mov",
+            "rax",
+            "callfunc_xxx",
+            "test",
+            "rax",
+            "rax",
+            "jz",
+            "JUMP_ADDR_21",
+            "jmp",
+            "rax",
+            "retn"
+        ],
+        "call_to": {},
+        "call_external": {
+            "_ITM_deregisterTMCloneTable": [
+                13
+            ]
+        },
+        "function_name": "deregister_tm_clones",
+        "function_addr": 4400
+    },
+    "a8d6fe5cf4b643af822535d8b546f6fe": {
+        "token_sequence": [
+            "lea",
+            "rdi",
+            "CONST",
+            "lea",
+            "rsi",
+            "CONST",
+            "sub",
+            "rsi",
+            "rdi",
+            "mov",
+            "rax",
+            "rsi",
+            "shr",
+            "rsi",
+            "CONST",
+            "sar",
+            "rax",
+            "CONST",
+            "add",
+            "rsi",
+            "rax",
+            "sar",
+            "rsi",
+            "CONST",
+            "jz",
+            "JUMP_ADDR_36",
+            "mov",
+            "rax",
+            "callfunc_xxx",
+            "test",
+            "rax",
+            "rax",
+            "jz",
+            "JUMP_ADDR_36",
+            "jmp",
+            "rax",
+            "retn"
+        ],
+        "call_to": {},
+        "call_external": {
+            "_ITM_registerTMCloneTable": [
+                28
+            ]
+        },
+        "function_name": "register_tm_clones",
+        "function_addr": 4448
+    },
+    "f3e91def76db4b55a25ed607ba0729cb": {
+        "token_sequence": [
+            "endbr64",
+            "cmp",
+            "cs:xxx",
+            "CONST",
+            "jnz",
+            "JUMP_ADDR_29",
+            "push",
+            "rbp",
+            "cmp",
+            "callfunc_xxx",
+            "CONST",
+            "mov",
+            "rbp",
+            "rsp",
+            "jz",
+            "JUMP_ADDR_21",
+            "mov",
+            "rdi",
+            "cs:xxx",
+            "call",
+            "callfunc_xxx",
+            "call",
+            "callfunc_xxx",
+            "mov",
+            "cs:xxx",
+            "CONST",
+            "pop",
+            "rbp",
+            "retn",
+            "retn"
+        ],
+        "call_to": {
+            "5d78ad8ef56e43a2acfcc74bb17f440e": [
+                20
+            ],
+            "15a2433297aa47008eedbe7c40eec59d": [
+                22
+            ]
+        },
+        "call_external": {
+            "__imp___cxa_finalize": [
+                9
+            ]
+        },
+        "function_name": "__do_global_dtors_aux",
+        "function_addr": 4512
+    },
+    "106b007c82fc4563bcd9690b07b9a632": {
+        "token_sequence": [
+            "endbr64",
+            "jmp",
+            "UNK_ADDR"
+        ],
+        "call_to": {
+            "a8d6fe5cf4b643af822535d8b546f6fe": [
+                2
+            ]
+        },
+        "call_external": {},
+        "function_name": "frame_dummy",
+        "function_addr": 4576
+    },
+    "808c8ab8e532416889852ab23ec2df23": {
+        "token_sequence": [
+            "endbr64",
+            "push",
+            "rbp",
+            "mov",
+            "rbp",
+            "rsp",
+            "sub",
+            "rsp",
+            "CONST",
+            "mov",
+            "[rbp+var_xxx]",
+            "edi",
+            "mov",
+            "[rbp+var_xxx]",
+            "esi",
+            "mov",
+            "eax",
+            "cs:xxx",
+            "add",
+            "eax",
+            "CONST",
+            "mov",
+            "cs:xxx",
+            "eax",
+            "mov",
+            "eax",
+            "[rbp+var_xxx]",
+            "mov",
+            "[rbp+var_xxx]",
+            "eax",
+            "jmp",
+            "JUMP_ADDR_69",
+            "mov",
+            "eax",
+            "[rbp+var_xxx]",
+            "cdq",
+            "idiv",
+            "[rbp+var_xxx]",
+            "mov",
+            "eax",
+            "edx",
+            "test",
+            "eax",
+            "eax",
+            "jnz",
+            "JUMP_ADDR_66",
+            "mov",
+            "eax",
+            "[rbp+var_xxx]",
+            "cdq",
+            "idiv",
+            "[rbp+var_xxx]",
+            "mov",
+            "edx",
+            "eax",
+            "mov",
+            "eax",
+            "[rbp+var_xxx]",
+            "mov",
+            "esi",
+            "eax",
+            "mov",
+            "edi",
+            "edx",
+            "call",
+            "callfunc_xxx",
+            "add",
+            "[rbp+var_xxx]",
+            "CONST",
+            "mov",
+            "eax",
+            "[rbp+var_xxx]",
+            "imul",
+            "eax",
+            "eax",
+            "cmp",
+            "[rbp+var_xxx]",
+            "eax",
+            "jge",
+            "JUMP_ADDR_32",
+            "nop",
+            "nop",
+            "leave",
+            "retn"
+        ],
+        "call_to": {
+            "808c8ab8e532416889852ab23ec2df23": [
+                65
+            ]
+        },
+        "call_external": {},
+        "function_name": "_Z1fii",
+        "function_addr": 4585
+    },
+    "c38257bc695b4f209b3adee2f3739808": {
+        "token_sequence": [
+            "endbr64",
+            "push",
+            "rbp",
+            "mov",
+            "rbp",
+            "rsp",
+            "sub",
+            "rsp",
+            "CONST",
+            "or",
+            "[rsp+CONST+var_xxx]",
+            "CONST",
+            "sub",
+            "rsp",
+            "CONST",
+            "mov",
+            "rax",
+            "fs:xxx",
+            "mov",
+            "[rbp+var_xxx]",
+            "rax",
+            "xor",
+            "eax",
+            "eax",
+            "lea",
+            "rax",
+            "[rbp+var_xxx]",
+            "mov",
+            "rsi",
+            "rax",
+            "lea",
+            "rax",
+            "CONST",
+            "mov",
+            "rdi",
+            "rax",
+            "call",
+            "callfunc_xxx",
+            "mov",
+            "[rbp+var_xxx]",
+            "CONST",
+            "jmp",
+            "JUMP_ADDR_113",
+            "mov",
+            "cs:xxx",
+            "CONST",
+            "lea",
+            "rdx",
+            "[rbp+var_xxx]",
+            "mov",
+            "eax",
+            "[rbp+var_xxx]",
+            "cdqe",
+            "shl",
+            "rax",
+            "CONST",
+            "add",
+            "rax",
+            "rdx",
+            "mov",
+            "rsi",
+            "rax",
+            "lea",
+            "rax",
+            "CONST",
+            "mov",
+            "rdi",
+            "rax",
+            "call",
+            "callfunc_xxx",
+            "mov",
+            "eax",
+            "[rbp+var_xxx]",
+            "cdqe",
+            "mov",
+            "eax",
+            "[rbp+rax*4+var_xxx]",
+            "mov",
+            "esi",
+            "CONST",
+            "mov",
+            "edi",
+            "eax",
+            "call",
+            "callfunc_xxx",
+            "mov",
+            "eax",
+            "cs:xxx",
+            "mov",
+            "esi",
+            "eax",
+            "lea",
+            "rax",
+            "CONST",
+            "mov",
+            "rdi",
+            "rax",
+            "call",
+            "callfunc_xxx",
+            "mov",
+            "rdx",
+            "callfunc_xxx",
+            "mov",
+            "rsi",
+            "rdx",
+            "mov",
+            "rdi",
+            "rax",
+            "call",
+            "callfunc_xxx",
+            "add",
+            "[rbp+var_xxx]",
+            "CONST",
+            "mov",
+            "eax",
+            "[rbp+var_xxx]",
+            "cmp",
+            "[rbp+var_xxx]",
+            "eax",
+            "jle",
+            "JUMP_ADDR_43",
+            "mov",
+            "eax",
+            "CONST",
+            "mov",
+            "rdx",
+            "[rbp+var_xxx]",
+            "sub",
+            "rdx",
+            "fs:xxx",
+            "jz",
+            "JUMP_ADDR_134",
+            "call",
+            "callfunc_xxx",
+            "leave",
+            "retn"
+        ],
+        "call_to": {
+            "b0d9b9ae6a304ca0b81762c812cf6b75": [
+                37,
+                69
+            ],
+            "808c8ab8e532416889852ab23ec2df23": [
+                84
+            ],
+            "d594d9e98f4842ec86840f89a0fb56c3": [
+                98
+            ],
+            "ed83edb7f99349449bcc6bfbd8a3eb48": [
+                109
+            ],
+            "3b3b411947f34b9980ea1482ded22ef4": [
+                133
+            ]
+        },
+        "call_external": {
+            "std::basic_ostream<char, std::char_traits<char>> & std::endl<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>> &)": [
+                101
+            ]
+        },
+        "function_name": "main",
+        "function_addr": 4679
+    },
+    "7add73ab960e41da98de53a986d25840": {
+        "token_sequence": [
+            "endbr64",
+            "push",
+            "rbp",
+            "mov",
+            "rbp",
+            "rsp",
+            "sub",
+            "rsp",
+            "CONST",
+            "mov",
+            "[rbp+var_xxx]",
+            "edi",
+            "mov",
+            "[rbp+var_xxx]",
+            "esi",
+            "cmp",
+            "[rbp+var_xxx]",
+            "CONST",
+            "jnz",
+            "JUMP_ADDR_53",
+            "cmp",
+            "[rbp+var_xxx]",
+            "CONST",
+            "jnz",
+            "JUMP_ADDR_53",
+            "lea",
+            "rax",
+            "CONST",
+            "mov",
+            "rdi",
+            "rax",
+            "call",
+            "callfunc_xxx",
+            "lea",
+            "rax",
+            "CONST",
+            "mov",
+            "rdx",
+            "rax",
+            "lea",
+            "rax",
+            "CONST",
+            "mov",
+            "rsi",
+            "rax",
+            "mov",
+            "rax",
+            "callfunc_xxx",
+            "mov",
+            "rdi",
+            "rax",
+            "call",
+            "callfunc_xxx",
+            "nop",
+            "leave",
+            "retn"
+        ],
+        "call_to": {
+            "7f8fbd4713354cb9988a9ff4122959ee": [
+                32
+            ],
+            "24771c96208d4ae18e48e18776f301a3": [
+                52
+            ]
+        },
+        "call_external": {
+            "std::ios_base::Init::~Init()": [
+                47
+            ]
+        },
+        "function_name": "_Z41__static_initialization_and_destruction_0ii",
+        "function_addr": 4928
+    },
+    "4531ddcd59234fd3a89bc217f3433c2d": {
+        "token_sequence": [
+            "endbr64",
+            "push",
+            "rbp",
+            "mov",
+            "rbp",
+            "rsp",
+            "mov",
+            "esi",
+            "CONST",
+            "mov",
+            "edi",
+            "CONST",
+            "call",
+            "callfunc_xxx",
+            "pop",
+            "rbp",
+            "retn"
+        ],
+        "call_to": {
+            "7add73ab960e41da98de53a986d25840": [
+                13
+            ]
+        },
+        "call_external": {},
+        "function_name": "_GLOBAL__sub_I_num",
+        "function_addr": 5014
+    }
+}
